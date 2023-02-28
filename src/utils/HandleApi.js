@@ -10,7 +10,6 @@ const getAllToDo = (setToDo) => {
         setToDo(data)
     })
 }
-
 const addToDo = (text,setText,setToDo) => {
     axios
     .post(`${baseUrl}/save`,{text})
